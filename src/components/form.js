@@ -7,9 +7,6 @@ function Form({ getData }) {
     if (!isNaN(Weight) && !isNaN(Height)) {
       getData(Height, Weight);
     }
-  };
-  function setHeightValue(e) {
-    setHeight(e.target.value);
   }
 
   return (
@@ -27,7 +24,7 @@ function Form({ getData }) {
                 <input
                   type="text"
                   value={Height}
-                  onChange={setHeightValue}
+                  onChange={(e)=>setHeight(e.target.value)}
                   className="secondraw_1"
                 ></input>
               </td>
