@@ -1,0 +1,54 @@
+.mainbox {
+  height: 200px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-left: 25%;
+  padding: 25px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+}
+.Heading {
+  font-size: 30px;
+  display: flex;
+  align-self: center;
+  margin-bottom: 25px;
+  margin-top: 8px;
+}
+.firstraw_1 {
+  height: 30px;
+  width: 200px;
+  text-align: left;
+}
+.firstraw {
+  display: flex;
+  justify-content: space-evenly;
+}
+.secondraw {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.secondraw_1 {
+  border: 1px solid black;
+  height: 30px;
+  width: 200px;
+}
+.button {
+  background-color: rgb(42, 163, 243);
+  padding: 8px;
+  border-radius: 3px;
+  width: 20%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.warning {
+  background-color: rgb(250, 250, 18);
+  display: flex;
+  margin-left: 50%;
+  width: fit-content;
+}
